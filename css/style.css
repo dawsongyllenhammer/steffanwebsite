@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Source Serif Pro', serif;
+  background-color: #adab8e;
+  margin: 0%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+#top-container {
+  border-radius: 5px 5px 0px 0px;
+}
+
+#bottom-container {
+  border-radius: 0px 0px 5px 5px;
+}
+
+.container img {
+  border-radius: 5px;
+  border: 2px solid #adab8e;
+}
+
+p {
+  font-size: 18px;
+  color: #4e6064;
+  width: 95%;
+}
+
+.header-grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 4rem;
+}
+
+.logo-grid ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.logo-grid ul li img {
+  width: 100%;
+  position: relative;
+  bottom: 30px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 5;
+  text-align: center;
+  padding: 2rem 2rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  text-align: center;
+  transition: max-height 0.3s;
+}
+
+nav li {
+  list-style: none;
+  padding: 1em 0;
+  font-size: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  opacity: 1;
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+
+nav a:hover {
+  opacity: 0.6;
+  color: #fff;
+}
+
+a {
+  transition: .3s all ease;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  text-decoration: none;
+}
+
+#toggle {
+  display: none;
+}
+
+/* .banner{
+    background-image:  url(../images/banner-edit4.jpg) ;
+    background-size: cover;
+    height: 100vh;
+}
+ */
+.banner {
+  width: 100% 100%;
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url(../images/banner-edit4.jpg);
+}
+
+#top-quote {
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 10px;
+  border-bottom: 8px double #adab8e;
+}
+
+.border {
+  border-bottom: 8px double #adab8e;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-gap: 4rem;
+  margin-bottom: 25px;
+}
+
+.main-img {
+  width: 100%;
+}
+
+/* 
+.img1{
+    border-radius: 400px !important;
+} */
+#stock-pic {
+  margin-top: 20px;
+}
+
+.main-padding {
+  padding: 7em 0em;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  color: #4d4841;
+}
+
+.services {
+  padding-top: 0%;
+}
+
+.service-left {
+  padding-left: 20px;
+}
+
+.service-left ul {
+  margin-top: 0%;
+}
+
+.service-left ul li {
+  color: #4e6064;
+  list-style-type: square;
+  font-size: 18px;
+}
+
+.header {
+  text-align: center;
+}
+
+a {
+  color: #adab8e;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #stock-pic {
+    display: none;
+  }
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+  .navbar {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .banner {
+    background-image: url(../images/banner-TABLET2.jpg);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .banner {
+    background-image: url(../images/banner-MOBILE3_c.jpg);
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .container {
+    width: 90%;
+  }
+  .container img {
+    display: none;
+  }
+  .main-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+    align-items: center;
+  }
+  .navbar {
+    grid-template-columns: 1fr;
+  }
+  nav {
+    display: none;
+  }
+  .logo {
+    width: 60%;
+  }
+  p, h2 {
+    padding-left: 10px;
+  }
+  .banner {
+    background-attachment: scroll !important;
+  }
+}
+
+/* @media only screen and (max-width: 400px){
+    .banner{
+        background-image: url(../images/banner-MOBILE2.jpg);
+        height: 90vh;
+    }
+} */
