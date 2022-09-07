@@ -242,10 +242,13 @@ footer {
     width: 60%;
   }
   p, h2 {
-    padding-left: 10px;
+    padding-left: 5px;
   }
   .banner {
     background-attachment: scroll !important;
+  }
+  ul {
+    padding-left: 0px;
   }
 }
 
