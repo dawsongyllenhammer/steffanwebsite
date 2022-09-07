@@ -215,6 +215,12 @@ footer{
     margin: 20px;
 }
 
+@media only screen and (max-width: 1300px){
+    .banner{
+        background-image: url(../images/banner-TABLET2.jpg);
+    }
+}
+
 @media only screen and (max-width: 1200px){
     #stock-pic{
         display: none;
@@ -226,12 +232,10 @@ footer{
         grid-template-columns: 1fr 2fr;
     }
 
-}
-
-@media only screen and (max-width: 1300px){
     .banner{
-        background-image: url(../images/banner-TABLET2.jpg);
-    }
+        background-attachment: scroll !important;
+    }    
+
 }
 
 @media only screen and (max-width: 900px){
