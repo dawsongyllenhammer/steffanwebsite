@@ -190,6 +190,14 @@ a {
   color: #adab8e;
 }
 
+#contact-p {
+  margin-bottom: 0;
+}
+
+#email {
+  overflow-wrap: break-word;
+}
+
 footer {
   text-align: center;
   color: #fff;
