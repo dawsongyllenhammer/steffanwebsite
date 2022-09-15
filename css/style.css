@@ -314,7 +314,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
-    bottom: 120px;
+    bottom: 20px;
   }
   .mobile .mobile-button {
     margin: 0 auto;
@@ -348,6 +348,7 @@ footer {
   }
   .banner {
     background-attachment: scroll !important;
+    height: 70vh;
   }
   ul {
     padding-left: 0px;

@@ -337,7 +337,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
-    bottom: 120px;
+    bottom: 20px;
 
     .mobile-button{
         margin: 0 auto;
@@ -381,6 +381,7 @@ p, h2{
 
 .banner{
     background-attachment: scroll !important;
+    height: 70vh;
 }
 
 ul{
