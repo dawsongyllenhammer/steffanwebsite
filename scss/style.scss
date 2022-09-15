@@ -186,13 +186,13 @@ a{
 .banner{
     width: 100% 100%;
     // width: auto;
-    height: 800px;
+    height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     // background-attachment: fixed;
     background-attachment: scroll !important;
-    background-image: url(../images/banner-edit4.jpg);
+    background-image: url(../images/banner-laptop-S2.jpg);
 }
 
 #top-quote{
@@ -285,11 +285,11 @@ footer{
     margin: 20px;
 }
 
-@media only screen and (max-width: 1300px){
+/* @media only screen and (max-width: 1300px){
     .banner{
         background-image: url(../images/banner-TABLET2.jpg);
     }
-}
+} */
 
 @media only screen and (max-width: 1200px){
     #stock-pic{
