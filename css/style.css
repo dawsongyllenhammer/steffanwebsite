@@ -321,7 +321,7 @@ footer {
     text-decoration: none;
     text-align: center;
     font-size: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
   }
   nav ul {
     grid-template-columns: repeat(3, 1fr);
