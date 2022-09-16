@@ -34,6 +34,7 @@ p {
   font-size: 18px;
   color: #4e6064;
   width: 95%;
+  max-width: 500px;
 }
 
 #active {
